@@ -1,0 +1,31 @@
+/* Estruture três códigos, os quais devem conter 
+uma função de manipulação de string que obtenha resultado. */
+
+const frase = "Ernesto está aprendendo a CODAR";
+
+function letrasMaiusculas(frase){
+    return frase.toUpperCase()
+}
+
+function letrasMinusculas(frase){
+    return frase.toLowerCase()
+}
+
+function quantidadeCaracter(frase){
+    return frase.length;
+}
+
+let quantidade;
+quantidade = quantidadeCaracter(frase);
+
+console.log("Número de caracteres: ",quantidade);
+
+let fraseMinuscula;
+fraseMinuscula = letrasMinusculas(frase)
+
+console.log(fraseMinuscula)
+
+let fraseMaiuscula;
+fraseMaiuscula = letrasMaiusculas(frase);
+
+console.log(fraseMaiuscula)
